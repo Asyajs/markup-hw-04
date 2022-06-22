@@ -123,6 +123,10 @@ text-decoration: none;
   color: var(--accent-color);
 }
 
+.inform-link-icon{
+  width: 10px;
+  height: 10px;
+}
 /* main section*/
 
 .main-section {
