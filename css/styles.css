@@ -25,12 +25,12 @@ body {
   letter-spacing: 0.03em;
 }
 
-h1
-h2
-h3
-h4
-h5
-h6
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
 p {
 margin: 0;
 }
@@ -126,6 +126,7 @@ text-decoration: none;
 
 .inform-link:hover {
   color: var(--accent-color);
+  fill: var(--accent-color);
 }
 
 .inform-link-icon {
@@ -205,22 +206,16 @@ button {
 .item-div{
   width: 270px;
   height: 120px;
-  background-color:#F5F4FA
+  background-color:var(--secondary-bg-color);
+  text-align: center;
+  padding-top: 25px;
 }
 
 .item-icon{
   display: inline-block;
   width: 70px;
   height: 70px;
-
 }
-/* maybe i must use "before here"
-.item-icon::before{
-  content: '';
-  display: inline-block;
-  width: 70px;
-  height: 70px;
-} */
 
 .section-title {
   font-family: 'Roboto';
@@ -273,30 +268,39 @@ button {
 }
 
 .team-set {
-  padding: 0px;
-  margin: 0px;
-  list-style: none;
   display: flex;
   justify-content: space-between;
+  padding-bottom: 90px;
 }
 
-.team {
-  padding-bottom: 90px;
+.team-link {
+  align-items: center;
+  display: flex;
+  width: 44px;
+  height: 44px;
+}
+
+.team-link:hover {
+  border-radius: 50%;
+  color: var(--accent-color);
+  fill: var(--accent-color);
 }
 
 .team-text {
   padding: 10px;
   text-align: center;
   background-color: var(--main-bg-color);
-  border:1px solid #EEEEEE;;
+  border:1px solid #EEEEEE;
   justify-content:space-between;
 }
 
-/* .team-flex {
+.team-flex {
   display: flex;
-  max-width: 270px;
-  max-height: 430px;
-} */
+  width: 206px;
+  justify-content: space-around;
+  margin-left: auto;
+  margin-right: auto;
+}
 
 .section-footer {
   font-weight: 700;
@@ -367,7 +371,7 @@ button {
 
 .section {
     padding: 94px, 0px;
-    margin top: 50px;
+    margin-top: 50px;
 }
 
 .section-descrip {
