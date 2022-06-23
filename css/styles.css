@@ -133,6 +133,7 @@ text-decoration: none;
   height: 15px;
 }
 
+
 /* main section*/
 
 .main-section {
@@ -201,7 +202,6 @@ button {
     margin-right: 30px;
 }
 
-
 .item-div{
   width: 270px;
   height: 120px;
@@ -209,10 +209,18 @@ button {
 }
 
 .item-icon{
+  display: inline-block;
   width: 70px;
   height: 70px;
-  background-position: center;
+
 }
+/* maybe i must use "before here"
+.item-icon::before{
+  content: '';
+  display: inline-block;
+  width: 70px;
+  height: 70px;
+} */
 
 .section-title {
   font-family: 'Roboto';
@@ -283,6 +291,12 @@ button {
   border:1px solid #EEEEEE;;
   justify-content:space-between;
 }
+
+/* .team-flex {
+  display: flex;
+  max-width: 270px;
+  max-height: 430px;
+} */
 
 .section-footer {
   font-weight: 700;
