@@ -286,6 +286,7 @@ button {
   height: 44px;
   border-radius: 50%;
 }
+
 .team-icon-link {
   fill: var(--icon-color);
 }
@@ -329,7 +330,6 @@ button {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
-  /* margin-top: 30px; */
 }
 
 .section-indent {
@@ -346,17 +346,19 @@ button {
   font-weight: 700;
   line-height: 42px;
   letter-spacing: 0.03em;
+  padding-top: 90px;
+  padding-bottom: 50px;
 }
 
 .clients-flex {
   display: flex;
   justify-content: space-between;
+  padding-bottom: 85px;
 }
 
 .client-leaf {
   align-items: center;
   display: flex;
-  height: 60px;
   width: 106px;
   border-radius: 0px;
 }
@@ -364,9 +366,19 @@ button {
 .clients-flex-item {
   border: 1px solid var(--icon-color);
   border-radius: 5px;
-  padding: 23px 65px;
+  padding-left:  32px;
+  padding-right: 32px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin-right: 10px;
 }
 
+.client-link {
+  align-items: center;
+  display: flex;
+  width: 106px;
+  height: 60px;
+}
 
 .clients-flex-item:hover {
   border-color: var(--accent-color);
@@ -375,17 +387,6 @@ button {
 .clients-flex-item:hover .client-leaf {
   fill: var(--accent-color);
 }
-
-
-.client-link {
-  align-items: center;
-  display: flex;
-  width: 16opx;
-  height: 60px;
-}
-
-
-
 
 /*footer*/
 
